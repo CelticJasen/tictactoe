@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+    <title>Tic Tac Toe</title>
 </head>
 <body>
-    
+    <h1>TIC-TAC-TOE</h1>
+    <div id="scoreBoard">
+        <span>Player</span>
+        <span>Marker</span>
+        <span>Score</span>
+        <span class="player1">Player 1</span>
+        <span class="p1Marker">X</span>
+        <span class="p1Score">0</span>
+        <span class="player2">Player 2</span>
+        <span class="p2Marker">O</span>
+        <span class="p2Score">0</span>
+    </div>
+
+    <div id="gameBoard">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div id="buttons">
+        <button class="button" id="change">Change Players</button>
+        <button class="button" id="reset">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
