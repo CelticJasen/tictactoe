@@ -4,37 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
-    <title>Tic Tac Toe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>TIC-TAC-TOE</title>
 </head>
 <body>
-    <h1>TIC-TAC-TOE</h1>
-    <div id="scoreBoard">
-        <span>Player</span>
-        <span>Marker</span>
-        <span>Score</span>
-        <span class="player1">Player 1</span>
-        <span class="p1Marker">X</span>
-        <span class="p1Score">0</span>
-        <span class="player2">Player 2</span>
-        <span class="p2Marker">O</span>
-        <span class="p2Score">0</span>
-    </div>
-
-    <div id="gameBoard">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-
-    <div id="buttons">
-        <button class="button" id="change">Change Players</button>
-        <button class="button" id="reset">Reset</button>
+    <header>
+        <h1>TIC-TAC-TOE</h1>
+        <button class="new-btn"> New Game</button>
+    </header>
+    <div class="container">
+        <div class="div-table" >
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="div-players">
+            <span>Players:</span>
+            <span>Marker</span>
+            <span>Score</span>
+            <span class="player1">Player 1</span>
+            <span class="p1Marker"></span>
+            <span class="p1Score"></span>
+            <span class="player2">Player 2</span>
+            <span class="p2Marker"></span>
+            <span class="p2Score"></span>
+        </div>
     </div>
 
     <script src="script.js"></script>
